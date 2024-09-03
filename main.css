@@ -1,0 +1,32 @@
+body {
+    cursor: pointer;
+}
+
+.f {
+
+position: relative;
+height: calc(100vh - 17px);
+}
+
+.c {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+background-color: rgb(215, 215, 215);
+padding: 25px 45px;
+font-size: 30px;
+user-select: none;
+border-radius: 50px;
+cursor: pointer;
+transition: 0.2s;
+font-weight: bold;
+text-transform: uppercase;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(62, 62, 62);
+}
+
+.c:hover {
+    background-color: rgb(87, 87, 87);
+    color: white;
+}
